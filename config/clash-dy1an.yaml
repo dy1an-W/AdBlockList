@@ -358,6 +358,7 @@ rule-providers:
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,AI,LLM"
+  - 'DOMAIN,cordc.net,DIRECT'
   - 'DOMAIN-SUFFIX,cuhk.edu.hk,CUHK'
   - 'PROCESS-NAME,Mail,DIRECT'
   - 'DOMAIN-SUFFIX,sentry.io,LLM'
