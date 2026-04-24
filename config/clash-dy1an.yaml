@@ -356,9 +356,12 @@ rule-providers:
     type: http
 
 rules:
-  - "RULE-SET,LocalAreaNetwork,全球直连"
+  - "RULE-SET,BanAD,广告拦截"
+  - "RULE-SET,BanProgramAD,广告拦截"
+  - "RULE-SET,MoreAD,广告拦截"
   - "RULE-SET,AI,LLM"
-  - 'DOMAIN,cordc.net,DIRECT'
+  - "RULE-SET,LocalAreaNetwork,全球直连"
+  - 'DOMAIN,cordc.net,全球直连'
   - 'DOMAIN-SUFFIX,cuhk.edu.hk,CUHK'
   - 'PROCESS-NAME,Mail,DIRECT'
   - 'DOMAIN-SUFFIX,sentry.io,LLM'
@@ -401,8 +404,7 @@ rules:
   - 'DOMAIN-KEYWORD,generativelanguage,LLM'
   - 'DOMAIN-SUFFIX,appstorrent.rum,全球直连'
   - "RULE-SET,UnBan,全球直连"
-  - "RULE-SET,BanAD,广告拦截"
-  - "RULE-SET,BanProgramAD,广告拦截"
+
   - "RULE-SET,GoogleFCM,海外应用"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
