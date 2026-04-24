@@ -1,0 +1,18 @@
+
+# 全民K歌
+DOMAIN,ad.tencentmusic.com
+DOMAIN,tmeadkg.y.qq.com
+DOMAIN,tmeadkgquic.y.qq.com
+DOMAIN,rdelivery.qq.com
+
+# 优酷
+DOMAIN,yk-ssp.ad.youku.com
+DOMAIN,cad.youku.com
+DOMAIN,youku-crm-product.youku.com
+
+DOMAIN,nbsdk-baichuan.alicdn.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,h-adashx.ut.taobao.com
+
+# Apple
+DOMAIN-SUFFIX,iadsdk.apple.com
