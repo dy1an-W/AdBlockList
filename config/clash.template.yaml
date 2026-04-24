@@ -134,7 +134,7 @@ rule-providers:
     format: text
     type: http
   MoreAD:
-    url: https://raw.githubusercontent.com/dy1an-W/AdBlockList/refs/heads/main/dylan-adBlock.list
+    url: https://raw.githubusercontent.com/dy1an-W/AdBlockList/main/rules/dylan-adBlock.list
     path: ./ruleset/MoreAD.list
     behavior: classical
     interval: 86400
