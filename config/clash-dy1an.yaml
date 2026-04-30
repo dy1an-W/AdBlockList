@@ -365,6 +365,7 @@ rules:
   - 'DOMAIN,cordc.net,全球直连'
   - 'DOMAIN-SUFFIX,cuhk.edu.hk,CUHK'
   - 'PROCESS-NAME,Mail,DIRECT'
+  - 'DOMAIN-SUFFIX,openai.com,LLM'
   - 'DOMAIN-SUFFIX,sentry.io,LLM'
   - 'DOMAIN-SUFFIX,chatgpt.com,LLM'
   - 'DOMAIN-SUFFIX,azurefd.net,LLM'
@@ -408,10 +409,10 @@ rules:
   - "RULE-SET,GoogleFCM,海外应用"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
-  - "RULE-SET,Bing,海外应用"
-  - "RULE-SET,OneDrive,海外应用"
-  - "RULE-SET,Microsoft,海外应用"
-  - "RULE-SET,Apple,海外应用"
+  # - "RULE-SET,Bing,海外应用"
+  # - "RULE-SET,OneDrive,海外应用"
+  # - "RULE-SET,Microsoft,海外应用"
+  # - "RULE-SET,Apple,海外应用"
   - "RULE-SET,Telegram,海外应用"
   # - "RULE-SET,Epic,游戏平台"
   # - "RULE-SET,Origin,游戏平台"
