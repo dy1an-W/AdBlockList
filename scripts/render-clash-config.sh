@@ -76,7 +76,7 @@ proxy-providers:
 EOF
   render_file_provider "iKuuu" "./providers/iKuuu_V2.yaml"
   render_file_provider "SakuraCat" "./providers/SakuraCat.yaml"
-  render_file_provider "CordCloud" "./providers/CordCloud.yaml"
+  # render_file_provider "CordCloud" "./providers/CordCloud.yaml"
 }
 
 render_http_mode() {
