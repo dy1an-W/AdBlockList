@@ -10,7 +10,7 @@ proxy-groups:
   - name: 自动选择
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
-    use: ['SakuraCat', 'CordCloud']
+    use: ['SakuraCat']
     exclude-filter: '倍率:(2|1\.)|专线|专用|高级|高倍率|🇨🇳'
     interval: 300
     tolerance: 50
